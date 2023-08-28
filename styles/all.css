@@ -46,7 +46,7 @@ a{
 }
 
 section{
-    width: 100%;
+    width: 90%;
     height: 500px;
     display: flex;
 }
@@ -109,12 +109,6 @@ nav ul{
     gap: 20px
 }
 
-ul li{
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-
 #logo{
     width: 40px;
 }
@@ -131,7 +125,7 @@ ul li{
 /* areas */
 #areas{
     height: auto;
-    padding: 20px;
+    padding: 20px 0px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -143,6 +137,8 @@ ul li{
     word-break: break-all;
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #frontEndTitle{
@@ -157,6 +153,9 @@ ul li{
 #mobileTitle{
     color: #a547f1;
 }
+#programacaoTitle{
+    color: #85f147;
+}
 
 .curso{
     width: 20%;
@@ -164,7 +163,6 @@ ul li{
     padding: 20px;
     color: aliceblue;
     background-color: #221a27;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -182,17 +180,172 @@ ul li{
     border-radius: 10px;
     justify-content: space-around;
     overflow: hidden;
+    color: white;
 }
 
 #sobreNosImg{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.imagesSobreNos{
+    width: 50%;
+    height: 50%;
+}
+
+/* imagesSobreNos */
+#sobreNosImg1{
+    background-image: url(../images/sobrenos.jpg);
+}
+
+#sobreNosImg2{
+    background-image: url(../images/sobrenos2.jpg);
+}
+
+#sobreNosImg3{
+    background-image: url(../images/sobrenos3.jpg);
+}
+
+#sobreNosImg4{
+    background-image: url(../images/sobrenos4.jpg);
 }
 
 #sobreNosTexto{
     width: 45%;
+    padding: 0% 5%;
+}
+
+#sobreNosTexto h1{
     text-align: center;
-    color: #fffdf2;
+}
+
+#sobreNosIcons{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 /* benefios */
+#beneficios{
+    background-color: #ff0072;
+    color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px 0px;
+}
+
+#beneficiosTexto{
+    width: 45%;
+    padding: 0% 5%;
+}
+
+#beneficiosImg{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/beneficios.jpg);
+}
+
+/* time */
+#time{
+    margin: 20px 0px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#timeGrupo{
+    width: 90%;
+    height: 80%;
+    background-color: #a547f1;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.integranteTime{
+    width: 20%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.integranteImg{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 5px solid white;
+    filter: grayscale(1);
+}
+
+#integranteAlex{
+    background-image: url(../images/userIcons/alex.jpg);
+}
+
+#integranteIan{
+    background-image: url(../images/userIcons/ian.jpg);
+
+}
+
+#integranteKachi{
+    background-image: url(../images/userIcons/kachi.jpg);
+
+}
+
+#integranteSpencer{
+    background-image: url(../images/userIcons/spencer.jpg);
+
+}
+
+/* precos */
+#precos{
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+}
+
+table{
+    width: 90%;
+    background-color: #221a27;
+    color: #fffdf2;
+    padding: 20px 0px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+th, td{
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.tableTitle{
+    background-color: #fffdf2;
+    color: #ff6600;
+}
+
+.basico{
+    background-color: #009eb2;
+}
+
+.avancado{
+    background-color: #85f147;
+    color: #221a27;
+}
+
+.premium{
+    background-color: #ff0072;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #221a27;
+    color: white;
+    display: flex;
+}
