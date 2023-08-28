@@ -1,0 +1,198 @@
+#colors{
+    background-color: #009eb2;
+    background-color: #ff6600;
+    background-color: #fffdf2;
+    background-color: #ff0072;
+    background-color: #221a27;
+}
+
+/* fonts */
+@font-face {
+    font-family: NeoGloss;
+    src: url(../fonts/neogloss-font/NeoglossBlack-axv9m.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/roboto-font/RobotoMedium-Owv4.ttf);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Roboto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: NeoGloss;
+}
+
+h1{
+    font-size: 50pt;
+}
+
+h2{
+    font-size: 40pt;
+}
+
+h3{
+    font-size: 35pt;
+}
+
+/* general */
+a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+aside{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.pinkLinks{
+    color: #ff0072;
+}
+
+.whiteLinks{
+    color: aliceblue;
+}
+
+.blueLinks{
+    color: #009eb2
+}
+
+.imageContainer{
+    width: 100%;
+}
+
+.backGroundImage{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#page,main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* header */
+
+header{
+    width: 100%;
+    height: 80px;
+}
+
+nav{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    gap: 20px
+}
+
+ul li{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    width: 40px;
+}
+
+/* banner */
+#banner{
+    width: 95%;
+    height: 500px;
+    background-image: url("../images/banner.jpg");
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+/* areas */
+#areas{
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cursosAreas{
+    width: 90%;
+    word-break: break-all;
+    display: flex;
+    gap: 20px;
+}
+
+#frontEndTitle{
+    color: #ff6600;
+}
+#backEndTitle{
+    color: #ff0072;
+}
+#uxDesignTitle{
+    color: #009eb2;
+}
+#mobileTitle{
+    color: #a547f1;
+}
+
+.curso{
+    width: 20%;
+    height: 250px;
+    padding: 20px;
+    color: aliceblue;
+    background-color: #221a27;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 20px 0px 0px;
+}
+
+.cursoImg{
+    width: 80px;
+    height: 80px;
+}
+
+/* sobre nos */
+#sobreNos{
+    background-color: #221a27;
+    border-radius: 10px;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+#sobreNosImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sobreNosTexto{
+    width: 45%;
+    text-align: center;
+    color: #fffdf2;
+}
+/* benefios */
